@@ -7,9 +7,10 @@ let lineNum = 0
 
 function write (buffer, encoding, next) {
   let line = buffer.toString()
-  this.push(lineNum % 2 === 0
-    ? line.toLowerCase() + '\n'
-    : line.toUpperCase() + '\n'
+  this.push((lineNum % 2 === 0
+    ? line.toLowerCase()
+    : line.toUpperCase())
+    + '\n'
   )
   lineNum ++
   next()
