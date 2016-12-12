@@ -1,0 +1,23 @@
+{
+  "name": "workshopper-stream-adventure",
+  "version": "1.0.0",
+  "description": "Learning about node steams",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TJRobson/workshopper-stream-adventure.git"
+  },
+  "keywords": [
+    "Node.js",
+    "Streams"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TJRobson/workshopper-stream-adventure/issues"
+  },
+  "homepage": "https://github.com/TJRobson/workshopper-stream-adventure#readme"
+}
