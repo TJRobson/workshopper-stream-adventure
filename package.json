@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/TJRobson/workshopper-stream-adventure/issues"
   },
-  "homepage": "https://github.com/TJRobson/workshopper-stream-adventure#readme"
+  "homepage": "https://github.com/TJRobson/workshopper-stream-adventure#readme",
+  "dependencies": {
+    "through2": "^2.0.3"
+  }
 }
