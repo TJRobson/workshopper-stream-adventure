@@ -22,6 +22,7 @@
   "homepage": "https://github.com/TJRobson/workshopper-stream-adventure#readme",
   "dependencies": {
     "concat-stream": "^1.5.2",
+    "duplexer2": "^0.1.4",
     "request": "^2.79.0",
     "split": "^1.0.0",
     "through2": "^2.0.3",
