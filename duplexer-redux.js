@@ -1,7 +1,7 @@
 const duplexer = require('duplexer2')
 const through = require('through2').obj
-const thru = require('through2')
-const duplex = require('duplexer2')
+const thru = require('through')
+const duplex = require('duplexer')
 
 module.exports = function (counter) {
     const counts = {}
