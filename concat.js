@@ -1,7 +1,7 @@
 const concat = require('concat-stream')
 
 process.stdin.pipe(concat(function (thing) {
-  let trans = thing.toString().split('').reverse().join('')
+  const trans = thing.toString().split('').reverse().join('')
   console.log(trans)
 }))
 
