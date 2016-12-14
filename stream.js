@@ -2,11 +2,10 @@ const trumpet = require('trumpet')
 const through = require('through2')
 const tr = trumpet()
 
-const stream = through(write, end)
+const thru = through(write, end)
 
 const loud = tr.selectAll('.loud').createStream()
-
-loud.pipe(stream).pipe(loud)
+loud.pipe(thru).pipe(loud)
 
 function write (buf, _, next) {
   this.push(buf.toString().toUpperCase())
