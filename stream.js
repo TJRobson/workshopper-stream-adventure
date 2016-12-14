@@ -26,3 +26,8 @@ process.stdin.pipe(tr).pipe(process.stdout)
 // })
 //
 // process.stdin.pipe(tr).pipe(process.stdout)
+
+
+// Discussion that explains trumpet and what is happening.
+
+// https://github.com/nodeschool/discussions/issues/1397
