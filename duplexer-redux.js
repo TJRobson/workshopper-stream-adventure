@@ -36,6 +36,8 @@ module.exports = function (counter) {
 //     return duplex
 // }
 
+// this method uses previous versions of said modules:
+
 // module.exports = function (counter) {
 //   var counts = {}
 //   return duplex(thru(record_count, set_count), counter)
@@ -51,8 +53,7 @@ module.exports = function (counter) {
 //   // executes. See http://stackoverflow.com/a/336868/72508.
 //   function record_count(obj) {
 //     var country = obj.country
-//     var count = counts[country] || 0
-//     counts[country] = count + 1
+//     counts[country] = counts[country] ? counts[country] + 1 : 1
 //   }
 //
 //   function set_count() {
