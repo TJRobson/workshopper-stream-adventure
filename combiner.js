@@ -8,7 +8,8 @@ module.exports = function () {
   let genreL
 
   function write (chunk, en, next) {
-    if (chunk.length === 0) { return  next() }
+
+    if (chunk.length === 0) return  next()
 
     const parsed = JSON.parse(chunk)
     if (parsed.type === 'genre') {
