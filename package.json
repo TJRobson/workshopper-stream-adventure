@@ -28,6 +28,7 @@
     "request": "^2.79.0",
     "split": "^1.0.0",
     "stream-combiner": "^0.2.2",
+    "tar": "^2.2.1",
     "through": "^2.3.8",
     "through2": "^2.0.3",
     "trumpet": "^1.7.2",
